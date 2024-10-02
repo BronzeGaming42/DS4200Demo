@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="index_style.css">
+</head>
+<body>
+    <h1 style="color:rgb(7, 236, 210)">Hello World!</h1>
+    <h3>It's me!</h3>
+    <button id="test_button">Here is test</button>
+    <script>
+        const test_button = document.getElementById("test_button")
+        test_button.addEventListener("click", function(){
+            window.location.href="test.html";
+        })
+    </script>
+    <p id="name">My name is <b>Andy</b>.</p>
+    <p class="fact">Today is <u>Monday</u>.</p>
+    <p>I <i>better</i> get credit for this!</p>
+    <a href="https://www.youtube.com">Youtube link</a>
+    <ul>
+        <li class="fact">First step</li>
+        <li>Step 2</li>
+        <li>Yeah</li>
+    </ul>
+    <ol>
+        <li>One</li>
+        <li>Two</li>
+    </ol>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/750px-Square_-_black_simple.svg.png?20210311042606" alt="Square." style="width:300px;height:200px;">
+</body>
+</html>

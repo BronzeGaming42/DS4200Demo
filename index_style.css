@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+p{
+    color: blue;
+    width: 800px;
+    margin: 0 auto;
+}
+
+a:hover{
+    color: red;
+}
+
+#name{
+    color:rgb(25, 194, 87);
+    background-color: black;
+}
+
+.fact{
+    border: 2px solid plum;
+    padding: 10px 5px 10px 5px
+}
